@@ -23,16 +23,11 @@
 # ZEBRA  - should be encoded as -  cheud
 # Pizza  - should be encoded as -  slccd
 
-def use_secret_encoder(plain_text):
-  encoded_message = ""
-  for letter in plain_text:
-    new_letter = chr(ord(letter) + 3)
-    encoded_message += new_letter
-  return encoded_message
+import nsa
 
-def use_secret_decoder(encoded_text):
-  return cipher_text
 
+from nsa import use_secret_encoder
+from nsa import use_secret_decoder
 
 message_to_be_encoded = input("What message do you want to send? ")
 encrypted_message = use_secret_encoder(message_to_be_encoded)
@@ -40,3 +35,10 @@ print("Here's the encrypted version: ", encrypted_message)
 
 plain_message = use_secret_decoder(encrypted_message)
 print("Here's your original message: ", plain_message)
+
+
+
+
+
+
+

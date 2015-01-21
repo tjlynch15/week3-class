@@ -9,6 +9,20 @@ names_of_planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'U
 
 # How many planets are there?
 
+
+
+# print("There are", len(names_of_planets), "planets")
+
+# planet_count = 0
+# for name in names_of_planets:
+#   planet_count += 1
+
+# print("There are", planet_count, "planets")
+
+# planet_count = len(names_of_planets)
+# print("There are %s" % planet_count, "planets")
+
+
 # Display the names of the planets in alphabetical order
 
 # Pick a planet at random

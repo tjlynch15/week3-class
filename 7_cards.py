@@ -9,7 +9,7 @@ for suit in SUITS:
     deck.append(face+suit)
 
 print(deck)
-
+print(len(deck))
 # How can we shuffle the deck?
 
 # How can we deal the top two cards from the deck?

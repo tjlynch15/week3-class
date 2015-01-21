@@ -22,11 +22,14 @@ file.close()
 #     if row:
 #       print(row[0])
 
+
+
+
 # 3. If the first line is a header row
-#
-# with open("landmarks.csv") as file:
-#   reader = csv.reader(file)
-#   next(reader)  # skip the header line
-#   for row in reader:
-#     if row:
-#       print(row[0])
+
+with open("landmarks.csv") as file:
+  reader = csv.reader(file)
+  next(reader)  # skip the header line
+  for row in reader:
+    if row:
+      print(row[0])
