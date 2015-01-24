@@ -16,16 +16,28 @@ planets = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune]
 
 # How many planets are there?
 print(len(planets))
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 # How many moons revolve around Jupiter?
 print(jupiter['moons'])
+
+print(jupiter["moons"])
+print(planets[4]["moons"])
 
 # How many moons are there in our solar system?
 number_of_moons = 0
 for planet in planets:
   number_of_moons = number_of_moons + planet['moons']
 print("There are", number_of_moons, "in our solar system.")
+
+number_of_moons = 0
+for planet in planets:
+    number_of_moons = number_of_moons + planet['moons']
+print(number_of_moons)
+
 
 # display all of the planet names
 

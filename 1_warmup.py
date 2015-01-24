@@ -25,6 +25,15 @@
 
 import nsa
 
+<<<<<<< Updated upstream
+=======
+def use_secret_decoder(encoded_text):
+  cipher_text = ""
+  for letter in encoded_text:
+    new_letter = chr(ord(letter) - 3)
+    cipher_text += new_letter 
+  return cipher_text
+>>>>>>> Stashed changes
 
 from nsa import use_secret_encoder
 from nsa import use_secret_decoder

@@ -11,6 +11,7 @@
 # - web: http://maps.google.com combined with the "What's Here?" trick
 # - webservice: https://developers.google.com/maps/documentation/geocoding/#JSON
 
+<<<<<<< Updated upstream
 from os import system
 import json
 from urllib.request import urlopen
@@ -27,3 +28,5 @@ print("The longitude is", longitude)
 
 
 
+=======
+>>>>>>> Stashed changes

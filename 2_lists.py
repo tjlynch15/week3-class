@@ -8,6 +8,8 @@ names_of_planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'U
 # ----------------------------------------------------
 
 # How many planets are there?
+#planet_count = len(names_of_planets)
+#print(planet_count)
 
 
 
@@ -26,6 +28,8 @@ names_of_planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'U
 # Display the names of the planets in alphabetical order
 
 # Pick a planet at random
+import random
+
 
 # Randomize the list
 
